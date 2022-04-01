@@ -1,0 +1,370 @@
+.Chapter1
+  crossbow {
+    display: flex;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: row;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+.Chapter2
+  crossbow {
+    display: flex;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  rossbow {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  crossbow {
+    display: flex;
+    justify-content: center;
+  }
+
+  crossbow {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  rossbow {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  crossbow {
+    display: flex;
+    justify-content: center;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+.Chapter3
+
+crossbow {
+  display: flex;
+  align-items: flex-start;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+
+crossbow {
+  display: flex;
+  align-items: flex-end;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+crossbow {
+  display: flex;
+  align-items: stretch;
+}
+
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+crossbow {
+  display: flex;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Chapter4
+
+crossbow {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+crossbow {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.target:nth-of-type(2) {
+  align-self: flex-start;
+}
+
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.target:nth-of-type(1) {
+  align-self: stretch;
+}
+
+crossbow {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+}
+
+.target:nth-of-type(1) {
+  align-self: center;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.target.male {
+  align-self: flex-end;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.target:nth-of-type(2) {
+  align-self: flex-end;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.target:nth-of-type(2) {
+  align-self: stretch;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.target:nth-of-type(2) {
+  align-self: flex-start;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+.target.female {
+  align-self: center;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: ;
+}
+
+.target:nth-of-type(3) {
+  align-self: flex-start;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.target:nth-of-type(3) {
+  align-self: flex-end;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.target:nth-of-type(2) {
+  align-self: flex-end;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.target:nth-of-type(3) {
+  align-self: flex-start;
+}
+
+crossbow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.target.female {
+  align-self: flex-start;
+}
+
+.Chapter5
