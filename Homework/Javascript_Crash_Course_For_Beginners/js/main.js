@@ -162,7 +162,7 @@ console.log(todoCompleted);
 
 //conditionals
 
-x = 6;
+x = 9;
 y = 11;
 if (x === 10) {
   console.log("X is 10");
@@ -174,7 +174,7 @@ if (x === 10) {
   console.log("X is less than 10");
 }
 
-let color = x > 10 ? "red" : "blue";
+let color = x > 10 ? "red" : "green";
 
 switch (color) {
   case "red":
@@ -184,7 +184,6 @@ switch (color) {
     console.log("color is blue");
     break;
   default:
-    console.log();
-    "color is not red nor blue";
+    console.log("color is not red nor blue");
     break;
 }
