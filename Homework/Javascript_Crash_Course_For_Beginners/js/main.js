@@ -187,3 +187,36 @@ switch (color) {
     console.log("color is not red nor blue");
     break;
 }
+
+function addNums(num1 = 1, num2 = 1) {
+  return num1 + num2;
+}
+addNums(5, 4);
+addNums();
+console.log(addNums(5, 5));
+
+let addNums1 = (num1 = 1, num2 = 1) => num1 + num2;
+
+console.log(addNums1(5, 5));
+
+function Person(firstName, lastName, dob) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.dob = new Date(dob);
+  this.getBirthYear = function () {
+    return this.dob.getFullYear();
+  };
+  this.getFullName = function () {
+    return `${this.firstName} ${this.lastName}`;
+  };
+}
+
+//instantiate an object
+
+let person1 = new Person("John", "Doe", "4-3-1980");
+let person2 = new Person("Mary", "Smith", "3-6-1970");
+console.log(person1);
+console.log(person2.firstName);
+
+console.log(person1.getBirthYear());
+console.log(person1.getFullName());
