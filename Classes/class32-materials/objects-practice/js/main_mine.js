@@ -31,7 +31,7 @@ class Front extends Contractor {
 
   sayHello() {
     console.log(
-      `Hello, my name is ${this._name} and I am on the ${this._role} team. I specialize in ${tech}`
+      `Hello, my name is ${this._name} and I am on the ${this._role} team. I specialize in ${this._tech}`
     );
   }
 }
@@ -39,15 +39,21 @@ class Front extends Contractor {
 class Back extends Contractor {
   constructor(name, role, tech) {
     super(name, role);
-    this_tech = tech;
+    this._tech = tech;
   }
 
   get tech() {
     return this._tech;
   }
+
+  sayHello() {
+    console.log(
+      `Hello, my name is ${this._name} and I am on the ${this._role} team. I specialize in ${this._tech}`
+    );
+  }
 }
 
-let Sharon = new Contractor("Sharon", "Contractor", "HTML");
+let Sharon = new Front("Sharon", "Contractor", "HTML");
 
 console.log(Sharon);
 console.log(Sharon.sayHello());
