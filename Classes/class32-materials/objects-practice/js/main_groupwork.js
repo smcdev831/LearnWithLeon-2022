@@ -187,10 +187,12 @@ let Manticon = new Insect(
 );
 
 let usePolymorphism = () => {
+  console.log("~~~~~HERE ARE THE ANIMALS~~~~~");
   animals.forEach((animal) => {
-    // animal.speak()
-    alert("testing");
+    animal.speak();
   });
 };
+
+console.log(animals[0]);
 
 document.querySelector("img").addEventListener("click", usePolymorphism);
