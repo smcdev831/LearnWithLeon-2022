@@ -226,3 +226,66 @@ console.log(person1.getFullName());
 console.log(person1);
 
 console.log(person2.getFullName());
+
+//OOP and the DOM
+//single selectors
+console.log(document.getElementById("my-form"));
+
+let form = document.getElementById("my-form");
+console.log(form);
+
+console.log(document.querySelector("h1"));
+
+//mutliple selectors
+console.log(document.querySelectorAll(".item"));
+
+console.log(document.getElementsByClassName("item"));
+
+console.log(document.getElementsByTagName("li"));
+
+let items = document.querySelectorAll(".item");
+items.forEach((item) => console.log(item));
+
+//manipulating the DOM
+
+let ul = document.querySelector(".items");
+
+// ul.remove();
+// ul.lastElementChild.remove();
+ul.firstElementChild.textContent = "Hello";
+ul.children[1].innerText = "Brad";
+ul.lastElementChild.innerHTML = "<h1>Hello</h1>";
+
+let btn = document.querySelector(".btn");
+btn.style.background = "red";
+
+btn.addEventListener("click", (e) => {
+  e.preventDefault();
+  console.log("click");
+  console.log(e.target);
+  console.log(e.target.className);
+});
+
+btn.addEventListener("click", (e) => {
+  e.preventDefault();
+  document.querySelector("#my-form").style.background = "#ccc";
+  document.querySelector("body").classList.add("bg-dark");
+  document.querySelector(".items").lastElementChild.innerHTML =
+    "<h4>Hello</h4>";
+});
+
+btn.addEventListener("mouseover", (e) => {
+  e.preventDefault();
+  document.querySelector("#my-form").style.background = "green";
+  document.querySelector("body").classList.add("bg-dark");
+  document.querySelector(".items").lastElementChild.innerHTML =
+    "<h4>Hello</h4>";
+});
+
+btn.addEventListener("mouseout", (e) => {
+  e.preventDefault();
+  document.querySelector("#my-form").style.background = "pink";
+  document.querySelector("body").classList.add("bg-dark");
+  document.querySelector(".items").lastElementChild.innerHTML =
+    "<h4>Hello</h4>";
+});
