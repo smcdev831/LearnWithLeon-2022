@@ -1,14 +1,13 @@
-for (let line = "#"; line.length < 8; line += "#")
-  console.log(line);
+for (let line = "#"; line.length < 8; line += "#") console.log(line);
 
-  for (let n = 1; n <= 100; n++) {
-    let output = "";
-    if (n % 3 == 0) output += "Fizz";
-    if (n % 5 == 0) output += "Buzz";
-    console.log(output || n);
-  }
+for (let n = 1; n <= 100; n++) {
+  let output = "";
+  if (n % 3 == 0) output += "Fizz";
+  if (n % 5 == 0) output += "Buzz";
+  console.log(output || n);
+}
 
-  let size = 8;
+let size = 8;
 
 let board = "";
 
@@ -24,3 +23,10 @@ for (let y = 0; y < size; y++) {
 }
 
 console.log(board);
+
+function min(a, b) {
+  return a > b ? b : a;
+}
+
+console.log(min(0, 10));
+console.log(min(0, -10));
